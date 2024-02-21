@@ -46,3 +46,7 @@ function() {
     bigliettoStampato.classList.remove('hidden');
     bigliettoStampato.classList.add('show');
 });
+
+ // variabile BUTTON 'annulla'
+
+var buttonAnnulla = document.getElementById('annulla');

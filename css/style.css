@@ -5,79 +5,9 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 /* --------------------------- */
 
-.wrapper h2 {
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.hidden {
-  opacity: 0;
-  transition:0.5s;
-}
-
-.show {
-  opacity: 1;
-  transition:0.5s;
-}
-
-/* dati biglietto  */
-.top-container {
-  width: 80%;
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  align-items: center;
-}
-
-input {
-  height: 25px;
-  border-radius: 5px;
-  border: 1px solid black;
-  padding: 10px;
-  line-height: 25px;
-  font-size: 16px;
-}
-
-
-/* bottoni  */
-.btn {
-  display: inline-block;
-  background-color: lightgrey;
-  color:black;
-  border: 1px solid grey;
-  padding: 10px;
-  margin: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.bottom-container {
-  background-color: white;
-  padding: 20px;
-  width: 80%;
-  margin: 0 auto;
-  border-radius: 5px;
-}
