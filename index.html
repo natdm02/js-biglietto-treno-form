@@ -7,12 +7,48 @@
 </head>
 
 <body>
+<!-- prezzo biglietto  -->
+  <div class="wrapper">
+    <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+
+    <div class="top-container">
+
+        <div class="row">
+<!-- nome e cognome           -->
+            <div class="col">
+                <label for="nome-utente">nome e cognome</label>
+                <input id="nome-utente" type="text" name="" value="" placeholder="Inserisci nome e cognome">
+            </div>
+<!-- km              -->
+            <div class="col">
+                <label for="km">Km da percorrere</label>
+                <input id="km" type="number" name="" value="" placeholder="Km da percorrere">
+            </div>
+<!-- età              -->
+            <div class="col">
+                <label for="fascia-eta">fascia d'eta;</label>
+                <select id="fascia-eta" class="" name="">
+                    <option value="minorenne">minorenne</option>
+                    <option value="maggiorenne">maggiorenne</option>
+                    <option value="over65">over 65</option>
+                </select>
+            </div>
+
+        </div>
+<!-- bottoni         -->
+        <div class="row">
+            <button id="genera" class="btn">genera</button>
+            <button id="annulla" class="btn">annulla</button>
+        </div>
+    </div>
+    <h2>IL TUO BIGLIETTO</h2>
+  </div>
 
 
 
 
 
-  
+<!-- js   -->
   <script src="js/script.js"></script>
 </body>
 </html>
