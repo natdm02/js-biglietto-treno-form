@@ -50,3 +50,23 @@ function() {
  // variabile BUTTON 'annulla'
 
 var buttonAnnulla = document.getElementById('annulla');
+
+buttonAnnulla.addEventListener( 'click',
+function() {
+
+ // elementi
+    document.getElementById('nome-passeggero').innerHTML = '';
+    document.getElementById('offerta').innerHTML = '';
+    document.getElementById('costo-biglietto').innerHTML = '';
+    document.getElementById('carrozza').innerHTML = '';
+    document.getElementById('codice-cp').innerHTML = '';
+
+ // input
+    document.getElementById('km').value = '';
+    document.getElementById("fascia-eta").value = '';
+    document.getElementById("nome-utente").value = '';
+
+    var bigliettoStampato = document.getElementById('biglietto')
+    bigliettoStampato.classList.remove('show');
+    bigliettoStampato.classList.add('hidden');
+});
